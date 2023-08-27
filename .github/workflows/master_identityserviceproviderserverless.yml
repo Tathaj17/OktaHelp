@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'identityServiceProviderServerless'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8D03B5F1CC47480C9FB1C01E2BE2CFF0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA8EF9588CC948FFB7B6B50A8F1299E4 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
